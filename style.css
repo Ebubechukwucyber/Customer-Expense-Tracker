@@ -1,0 +1,125 @@
+body {
+    font-family: helvetica;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/*The header section*/
+header {
+    width: 100%;
+    Background-color: #004C99;
+    padding: 15px;
+}
+
+.header-Title {
+    color: rgb(240 255 240);
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+/* The main section */
+.container {
+    margin: 100px auto;
+    width: 1300px;
+    height: auto;
+    padding: 16px 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Form section */
+.Form-container {
+    flex: 30%;
+}
+
+.record-container {
+    flex: 50%;
+}
+
+.input-title {
+    font-size: 16px;
+    color: #004c99;
+}
+
+.record-input {
+    border: 2px solid #99ccff;
+    width: 80%;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #004c99;
+}
+
+.record-submit {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #004C99;
+    color: rgb(240 255 240);
+}
+
+.record-submit:hover {
+    background-color: #000099;
+}
+
+/* Table section */
+th,
+td {
+    
+}
+
+Table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+td {
+    height: 40px;
+    text-align: center;
+    Vertical-align: bottom;
+    color: #004c99;
+}
+tr:nth-child(odd){
+    background-color:#99ccff;
+}
+
+th {
+    border-color: #000099;
+    height: 40px;
+    text-align: center;
+    background-color: #004c99;
+    color: rgb(240 255 240);
+}
+
+.deleteTable {
+    border: none;
+    text-align: center;
+    vertical-align: top;
+}
+
+button {
+    padding: 2px 4px;
+    background-color:#ff3333;
+    border-color: #ff3333;
+    color: rgb(240 255 240);
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.Edit{
+    background-color:#004c99;
+    border-color: #004c99;
+}
+
+.Edit:hover{
+    background-color:#000099;
+    border-color: #000099;
+}

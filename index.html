@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Expense Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--The header section-->
+    <header>
+        <div class="header-Title">Customer Record Tracker</div>
+    </header>
+
+    <!-- The main section -->
+    <div class="container">
+        <!-- Form section -->
+        <div class="Form-container">
+            <form id ="form" autocomplete ="off">
+                <label for="customerName" class="input-title">CUSTOMER NAME</label><br>
+                <input type="text" class="record-input" id="customerName" required><br><br><br>
+
+                <label for="itemPurchased" class="input-title">ITEM PURCHASED</label><br>
+                <input type="text" class="record-input" id="itemPurchased" required><br><br><br>
+
+                <label for="quantity" class="input-title">QUANTITY</label><br>
+                <input type="number" class="record-input" id="quantity" required><br><br><br>
+
+                <label for="Date" class="input-title">DATE</label><br>
+                <input type="date" class="record-input" id="date" required><br><br>
+
+                <input type="submit" value="Submit" class="record-submit">
+
+            </form>
+
+        </div>
+        <!-- Table section -->
+        <div class="record-container" id ="container">
+            <table id ="table">
+                <tr>
+                    <th>CUSTOMER NAME</th>
+                    <th>ITEM PURCHASED</th>
+                    <th>QUANTITY</th>
+                    <th>DATE</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+               
+            </table>
+
+
+        </div>
+
+    </div>
+
+    <script src ="script.js"></script>
+
+</body>
+
+</html>
